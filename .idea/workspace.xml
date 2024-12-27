@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Added jobs_in_data.csv file.Printed the head() data">
+    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
@@ -75,13 +75,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735311749069</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;">
+      <option name="closed" value="true" />
+      <created>1735312853101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735312853101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added jobs_in_data.csv file.Printed the head() data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jobs_in_data.csv file.Printed the head() data" />
+    <MESSAGE value="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;" />
   </component>
 </project>
