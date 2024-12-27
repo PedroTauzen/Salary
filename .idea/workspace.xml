@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;">
+    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Quartile calculation was used to identify three salary classifications: high, medium, and low. Created a salary classification column: &quot;salary_classification&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
@@ -83,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735312853101</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Quartile calculation was used to identify three salary classifications: high, medium, and low. Created a salary classification column: &quot;salary_classification&quot;">
+      <option name="closed" value="true" />
+      <created>1735313783628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735313783628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,6 +99,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added jobs_in_data.csv file.Printed the head() data" />
     <MESSAGE value="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;" />
+    <MESSAGE value="Quartile calculation was used to identify three salary classifications: high, medium, and low. Created a salary classification column: &quot;salary_classification&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quartile calculation was used to identify three salary classifications: high, medium, and low. Created a salary classification column: &quot;salary_classification&quot;" />
   </component>
 </project>

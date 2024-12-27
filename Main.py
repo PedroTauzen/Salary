@@ -30,5 +30,8 @@ def classify_salary(salary):
 # Cria uma coluna para a classificação de salários.
 data["salary_classification"] = data[salary_classification].apply(classify_salary)
 
-# Imprimir header
-print(data.head())
+# Caminho para o novo ficheiro
+output_file = os.path.join("transformed_data", "jobs_in_data.csv")
+
+# Gravar os dados transformados em CSV
+data.to_csv(output_file, index=False)
