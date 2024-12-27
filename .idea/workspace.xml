@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Saved the transformations in a new csv file.">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Final adjustments.">
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735314211675</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final adjustments.">
+      <option name="closed" value="true" />
+      <created>1735314404155</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735314404155</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +125,7 @@
     <MESSAGE value="Eliminated the columns: &quot;work_year&quot;, &quot;salary&quot;, &quot;salary_currency&quot;, &quot;job_title&quot;" />
     <MESSAGE value="Quartile calculation was used to identify three salary classifications: high, medium, and low. Created a salary classification column: &quot;salary_classification&quot;" />
     <MESSAGE value="Saved the transformations in a new csv file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Saved the transformations in a new csv file." />
+    <MESSAGE value="Final adjustments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final adjustments." />
   </component>
 </project>
