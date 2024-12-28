@@ -40,6 +40,42 @@ for col in columns_to_check:
     print(f"Valores únicos ({len(unique_values)}): {unique_values}")
     print("\n")
 
+# Mapeamento de países para continentes
+continent_mapping = {
+    # Europa
+    'Germany': 'Europe', 'United Kingdom': 'Europe', 'France': 'Europe', 'Spain': 'Europe',
+    'Ireland': 'Europe', 'Portugal': 'Europe', 'Netherlands': 'Europe', 'Luxembourg': 'Europe',
+    'Lithuania': 'Europe', 'Poland': 'Europe', 'Romania': 'Europe', 'Slovenia': 'Europe',
+    'Greece': 'Europe', 'Italy': 'Europe', 'Czech Republic': 'Europe', 'Estonia': 'Europe',
+    'Latvia': 'Europe', 'Denmark': 'Europe', 'Sweden': 'Europe', 'Finland': 'Europe', 'Bulgaria': 'Europe',
+    'Switzerland': 'Europe', 'Belgium': 'Europe', 'Austria': 'Europe', 'Andorra': 'Europe',
+    'Malta': 'Europe', 'Bosnia and Herzegovina': 'Europe', 'Gibraltar': 'Europe', 'Moldova': 'Europe',
+    'Croatia': 'Europe', 'Serbia': 'Europe', 'Georgia': 'Europe', 'Armenia': 'Europe',  'Jersey': 'Europe',
+
+    # América do Norte
+    'United States': 'North America', 'Canada': 'North America', 'Mexico': 'North America',
+    'Puerto Rico': 'North America', 'American Samoa': 'North America', 'Bahamas': 'North America',
+
+    # América do Sul
+    'Brazil': 'South America', 'Colombia': 'South America', 'Argentina': 'South America',
+    'Ecuador': 'South America', 'Peru': 'South America', 'Honduras': 'South America',
+    'Chile': 'South America', 'Bolivia': 'South America',
+
+    # África
+    'South Africa': 'Africa', 'Mauritius': 'Africa', 'Kenya': 'Africa', 'Ghana': 'Africa',
+    'Nigeria': 'Africa', 'Tunisia': 'Africa', 'Egypt': 'Africa', 'Algeria': 'Africa',
+    'Central African Republic': 'Africa',
+
+    # Ásia
+    'India': 'Asia', 'China': 'Asia', 'Japan': 'Asia', 'Thailand': 'Asia', 'Philippines': 'Asia',
+    'Pakistan': 'Asia', 'Turkey': 'Asia', 'Russia': 'Asia', 'Saudi Arabia': 'Asia', 'Qatar': 'Asia',
+    'Indonesia': 'Asia', 'Malaysia': 'Asia', 'Singapore': 'Asia', 'Iran': 'Asia', 'Israel': 'Asia',
+    'United Arab Emirates': 'Asia', 'Vietnam': 'Asia', 'Uzbekistan': 'Asia', 'Hong Kong': 'Asia',
+
+    # Oceania
+    'Australia': 'Oceania', 'New Zealand': 'Oceania'
+}
+
 # Caminho para o novo ficheiro
 output_dir = "transformed_data"
 if not os.path.exists(output_dir):

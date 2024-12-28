@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="New features">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Listed a dictionar with the unique values of the columns.">
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735403601201</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Listed a dictionar with the unique values of the columns.">
+      <option name="closed" value="true" />
+      <created>1735403738271</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735403738271</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +153,7 @@
     <MESSAGE value="Final adjustments." />
     <MESSAGE value="Final adjustments: Removed the word &quot;salary&quot; in the classification description." />
     <MESSAGE value="New features" />
-    <option name="LAST_COMMIT_MESSAGE" value="New features" />
+    <MESSAGE value="Listed a dictionar with the unique values of the columns." />
+    <option name="LAST_COMMIT_MESSAGE" value="Listed a dictionar with the unique values of the columns." />
   </component>
 </project>
