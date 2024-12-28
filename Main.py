@@ -30,9 +30,15 @@ def classify_salary(salary):
 # Cria uma coluna para a classificação de salários
 data["salary_classification"] = data[salary_classification].apply(classify_salary)
 
+# Selecionar as colunas para listar os valores únicos
+columns_to_check = ['company_location', 'job_category', 'employee_residence']
 
-
-
+# Criar um dicionário com os valores únicos e as suas quantidades
+for col in columns_to_check:
+    unique_values = data[col].unique()
+    print(f"Coluna: {col}")
+    print(f"Valores únicos ({len(unique_values)}): {unique_values}")
+    print("\n")
 
 # Caminho para o novo ficheiro
 output_dir = "transformed_data"
