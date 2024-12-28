@@ -76,6 +76,16 @@ continent_mapping = {
     'Australia': 'Oceania', 'New Zealand': 'Oceania'
 }
 
+# Aplicar o mapeamento nas colunas
+data['company_location_continent'] = data['company_location'].map(continent_mapping)
+data['employee_residence_continent'] = data['employee_residence'].map(continent_mapping)
+
+# Verificar os resultados
+print("Company Location (Continent):")
+print(data['company_location_continent'].value_counts())
+
+print("\nEmployee Residence (Continent):")
+print(data['employee_residence_continent'].value_counts())
 
 # Caminho para o novo ficheiro
 output_dir = "transformed_data"

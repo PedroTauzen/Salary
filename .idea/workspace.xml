@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Listed a dictionar with the unique values of the columns.">
+    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Countries and Continents mapping list">
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735403738271</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Countries and Continents">
+      <option name="closed" value="true" />
+      <created>1735403798961</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735403798961</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Countries and Continents mapping list">
+      <option name="closed" value="true" />
+      <created>1735403825632</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735403825632</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +170,8 @@
     <MESSAGE value="Final adjustments: Removed the word &quot;salary&quot; in the classification description." />
     <MESSAGE value="New features" />
     <MESSAGE value="Listed a dictionar with the unique values of the columns." />
-    <option name="LAST_COMMIT_MESSAGE" value="Listed a dictionar with the unique values of the columns." />
+    <MESSAGE value="Countries and Continents" />
+    <MESSAGE value="Countries and Continents mapping list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Countries and Continents mapping list" />
   </component>
 </project>
