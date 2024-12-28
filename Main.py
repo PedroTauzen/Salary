@@ -76,6 +76,7 @@ continent_mapping = {
     'Australia': 'Oceania', 'New Zealand': 'Oceania'
 }
 
+
 # Caminho para o novo ficheiro
 output_dir = "transformed_data"
 if not os.path.exists(output_dir):
