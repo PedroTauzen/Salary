@@ -21,14 +21,18 @@ q3 = data[salary_classification].quantile(0.75)
 # Definir as classes de salários com base nos quartis
 def classify_salary(salary):
     if salary <= q1:
-        return "low"
+        return "Low"
     elif q1 < salary <= q3:
-        return "medium"
+        return "Medium"
     else:
-        return "high"
+        return "High"
 
 # Cria uma coluna para a classificação de salários
 data["salary_classification"] = data[salary_classification].apply(classify_salary)
+
+
+
+
 
 # Caminho para o novo ficheiro
 output_dir = "transformed_data"

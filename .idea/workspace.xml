@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Final adjustments.">
+    <list default="true" id="836a97e3-adf5-47f2-b868-5d28d1a1499b" name="Changes" comment="Final adjustments: Removed the word &quot;salary&quot; in the classification description.">
+      <change afterPath="$PROJECT_DIR$/Main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformed_data/jobs_in_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/transformed_data/jobs_in_data.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2qnvXJLax2t5DkS08w14Wd3Fdr4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,6 +40,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.Main.executor": "Run",
+    "Python.Main2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -115,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735314404155</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final adjustments: Removed the word &quot;salary&quot; in the classification description.">
+      <option name="closed" value="true" />
+      <created>1735314591155</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735314591155</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +138,7 @@
     <MESSAGE value="Quartile calculation was used to identify three salary classifications: high, medium, and low. Created a salary classification column: &quot;salary_classification&quot;" />
     <MESSAGE value="Saved the transformations in a new csv file." />
     <MESSAGE value="Final adjustments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final adjustments." />
+    <MESSAGE value="Final adjustments: Removed the word &quot;salary&quot; in the classification description." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final adjustments: Removed the word &quot;salary&quot; in the classification description." />
   </component>
 </project>
